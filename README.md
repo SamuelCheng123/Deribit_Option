@@ -27,7 +27,7 @@ result:
  ![image](https://user-images.githubusercontent.com/70627447/152637814-ba55132c-eca4-4f33-adad-827ff28e67c0.png)
 拿到 2022/2/6 交割的合約信息，有標記價格、未平倉量等等資訊
 
-現在來用這些計算 2/6 所有到期合約的最大痛點價格
+現在來用這些計算 2/6 所有到期合約的最大痛點價格 (能讓選擇權買方產生最大虧損的價格)
 ```
 option = options.options_perDate[options.sorted_Date[0]]
 options.maxPainPrice(option)
